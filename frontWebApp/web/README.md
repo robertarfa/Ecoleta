@@ -1,44 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src="./src/assets/logo.svg">
+    <br><br>
+    
+</h3>
 
-## Available Scripts
+<p align="center">
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
+  </a>
+</p>
+
+# Índice
+
+- [Sobre](#sobre)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
+
+<a id="sobre"></a>
+
+## Sobre
+
+O <strong>Ecoleta</strong> é uma aplicação Web e Mobile para ajudar pessoas a encontrarem pontos de coleta para reciclagem.
+
+Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/). A ideia de criar uma aplicação voltada ao meio ambiente surgiu da coincidência da data do curso e a data da <strong>semana do meio ambiente</strong>
+
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+
+## Resultado:
+
+- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
+
+<a id="como-usar"></a>
+
+## Como usar
+
+- ### **Pré-requisitos**
+
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+
+  # Instale as dependências nas pastas server e web
+
+  $ npm install
+	$ npm update
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn dev` to start the server (server folder)
+
+### `npm start`to run the webpage (web folder)
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
