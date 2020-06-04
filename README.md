@@ -31,11 +31,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-
-## Resultado:
-
-- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
 
 <a id="como-usar"></a>
 
@@ -49,7 +44,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
   # Instale as dependências nas pastas server e web
 
   $ npm install
-	$ npm update
+  $ npm update
 
 In the project directory, you can run:
 
